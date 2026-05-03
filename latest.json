@@ -5,7 +5,7 @@
   "version": "0.2.2",
   "release_date": "2026-05-03",
   "release_url": "https://github.com/Neko-Health/whisper-dictate/releases/tag/v0.2.2",
-  "installer_url": "",
-  "installer_sha256": "",
+  "installer_url": "https://github.com/oscarnorberg/whisper-dictate-public/releases/download/v0.2.2/WhisperDictateSetup-v0.2.2.exe",
+  "installer_sha256": "d22a23f4c030453eb1f4c994eeba6b172a9f1c6bea1c5305561c210d2a47114a",
   "release_notes_md": "First broadly-testable release. Three real bugs fixed (each caught by Windows Sandbox cold-install testing), plus polish.\n\n**Fixed:**\n- Wrong clipboard contents pasted instead of transcript (now uses SendInput-based typing by default; clipboard is not touched)\n- Engine fails on machines without Intel iGPU (now probes available devices upfront)\n- Installer fails on virgin Windows with WinError 126 (Visual C++ Redistributable bundled)\n- Main window opens too small (size locked)\n- Desktop icon was blurry (multi-size .ico with cream rounded plate)\n\nFull notes: https://github.com/Neko-Health/whisper-dictate/releases/tag/v0.2.2"
 }
